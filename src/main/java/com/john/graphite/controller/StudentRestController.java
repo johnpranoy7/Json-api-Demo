@@ -49,7 +49,7 @@ public class StudentRestController {
 	public EntityModel<Movie> getMovie1() {
 		Movie m = new Movie();
 		m.setId("1");
-		m.setTitle("asda");
+		m.setTitle("abcd");
 		return EntityModel.of(m);
 	}
 
